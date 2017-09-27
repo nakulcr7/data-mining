@@ -27,14 +27,10 @@ def display_attributes(max_number):
 def display_data(in_filename):
     print('@DATA')
     for line in read_file_iter(in_filename):
-    	nums = [int(n) for n in line.strip().split()]
-    	output_dict = defaultdict(int)
-    	for num in nums:
-    		output_dict[num] += 1
+    	nums = set([int(n) for n in line.strip().split()])
     	output_pairs = []
-    	for num in sorted(output_dict):
-    		# output_str += '{' + '{} {} '.format(num - 1, output_dict[num]) + '}'
-    		output_pairs.append('{} {}'.format(num - 1, output_dict[num]))
+    	for num in sorted(list(nums)):
+    		output_pairs.append('{} 1'.format(num - 1))
     	print('{' + ', '.join(output_pairs) + '}')
 
 

@@ -1,0 +1,10 @@
+@RELATION test
+@ATTRIBUTE i1 {0, 1}
+@ATTRIBUTE i2 {0, 1}
+@ATTRIBUTE i3 {0, 1}
+@ATTRIBUTE i4 {0, 1}
+@ATTRIBUTE i5 {0, 1}
+@DATA
+{0 1, 1 1, 2 1}
+{0 1}
+{4 1}
