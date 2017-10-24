@@ -1,0 +1,14 @@
+digraph G {
+rankdir="LR";
+node [width=5, height=1];
+CS_5200 [ label="CS 5200\nDatabase Management Systems" ];
+CS_5800 [ label="CS 5800\n" ];
+CS_6220 [ label="CS 6220\nData Mining Techniques" ];
+CS_7800 [ label="CS 7800\n" ];
+DS_5230 [ label="DS 5230\nUnsupervised Machine Learning and Data Mining" ];
+EECE_7205 [ label="EECE 7205\n" ];
+CS_5800 -> CS_6220;
+CS_5800 -> DS_5230;
+CS_7800 -> CS_6220;
+EECE_7205 -> DS_5230;
+}
