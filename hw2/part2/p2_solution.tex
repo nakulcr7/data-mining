@@ -463,13 +463,13 @@
     	\end{adjustbox}
 	\end{center}
 	
-	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 1:} \{3, 6\}
 	
 	\begin{itemize}
-		\item d(\{1\},\{3,6\}) = (d(\{1\},\{3\}) + d(\{1\},\{6\})) / (1 x 2) = 0.2256
-		\item d(\{4\},\{3,6\}) = (d(\{4\},\{3\}) + d(\{4\},\{6\})) / (1 x 2) = 0.1888
-		\item d(\{2\},\{3,6\}) = (d(\{2\},\{3\}) + d(\{2\},\{6\})) / (1 x 2) = 0.2026
-		\item d(\{5\},\{3,6\}) = (d(\{5\},\{3\}) + d(\{5\},\{6\})) / (1 x 2) = 0.3353
+		\item d(\{1\},\{3,6\}) = avg[d(\{1\},\{3\}) + d(\{1\},\{6\})] = 0.2256
+		\item d(\{4\},\{3,6\}) = avg[d(\{4\},\{3\}) + d(\{4\},\{6\})] = 0.1888
+		\item d(\{2\},\{3,6\}) = avg[d(\{2\},\{3\}) + d(\{2\},\{6\})] = 0.2026
+		\item d(\{5\},\{3,6\}) = avg[d(\{5\},\{3\}) + d(\{5\},\{6\})] = 0.3353
 	\end{itemize}
 	
 	
@@ -477,84 +477,127 @@
 	
 	\begin{center}
     	\begin{adjustbox}{max width=\textwidth}
-		\begin{tabular}{ | c | c | c | c | c | c | c |}
+		\begin{tabular}{ | c | c | c | c | c | c |}
 	  	 	\hline
 
-	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3, p_6$} & \textbf{$p_4$} & \textbf{$p_5$}\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\textbf{$p_1$} &  &  &  &  &\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &  &  \\
+	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_3$} & \st{0.2159} & \st{0.1523} &  &  &  & \\
+	  	 	\textbf{$p_3, p_6$} & 0.2256 & 0.2026 &  &  &\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & \st{0.1581} &  &  & \\
+	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & 0.1888 &  &\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_5$} & 0.3418 & \textbf{0.1334} & \st{0.2846} & 0.2842 &  & \\
-	  	 	\hline	
-	  	 	
-	  	 	\textbf{$p_6$} & \st{0.2354} & \st{0.2530} & \st{0.1020} & \st{0.2195} & \st{0.3860} & \\
+	  	 	\textbf{$p_5$} & 0.3418 & \textbf{0.1334} & 0.3353 & 0.2842 &\\
 	  	 	\hline			
     		\end{tabular}
     	\end{adjustbox}
 	\end{center}
 	
 	\underline{Cluster 1:} \{3, 6\} \\
-	\underline{Cluster 2:} \{2, 5\} \\
-	
+	\underline{Cluster 1:} \{2, 5\} \\
 	
 	\begin{itemize}
-		\item d(\{1\},\{2,5\}) = avg(d(\{1\},\{2\}), d(\{1\},\{5\})) = 0.2919
-		\item d(\{4\},\{2,5\}) = avg(d(\{2\},\{4\}), d(\{2\},\{5\})) = 0.1649
-		\item d(\{3,6\},\{2,5\}) = avg(d(\{3\},\{2\}), d(\{3\},\{5\}), d(\{6\},\{2\}), d(\{6\},\{5\})) = 0.2689
+		\item d(\{1\},\{2,5\}) = avg[d(\{1\},\{2\}) + d(\{1\},\{5\})] = 0.2919
+		\item d(\{3,6\},\{2,5\}) = avg[d(\{3,6\},\{2\}) + d(\{3,6\},\{5\})] = 0.2837
+		\item d(\{4\},\{2,5\}) = avg[d(\{4\},\{2\}) + d(\{4\},\{5\})] = 0.2404
 	\end{itemize}
-	
-	
+
+
 	\textbf{Iteration 3:}
 	
 	\begin{center}
     	\begin{adjustbox}{max width=\textwidth}
-		\begin{tabular}{ | c | c | c | c | c | c | c |}
+		\begin{tabular}{ | c | c | c | c | c |}
 	  	 	\hline
 
-	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	& \textbf{$p_1$} & \textbf{$p_2, p_5$} & \textbf{$p_3, p_6$} & \textbf{$p_4$}\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\textbf{$p_1$} &  &  &  &\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_2$} & \st{0.2421} &  &  &  &  &  \\
+	  	 	\textbf{$p_2, p_5$} & 0.2919 &  &  &\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_3$} & \st{0.2159} & \st{0.1523} &  &  &  & \\
+	  	 	\textbf{$p_3, p_6$} & 0.2256 & 0.2185 &  &\\
 	  	 	\hline
 	  	 	
-	  	 	\textbf{$p_4$} & 0.3677 & \st{0.1965} & \st{0.1581} &  &  & \\
-	  	 	\hline
-	  	 	
-	  	 	\textbf{$p_5$} & \st{0.3418} & \st{0.1334} & \st{0.2846} & \textbf{0.2842} &  & \\
-	  	 	\hline	
-	  	 	
-	  	 	\textbf{$p_6$} & \st{0.2354} & \st{0.2530} & \st{0.1020} & \st{0.2195} & \st{0.3860} & \\
-	  	 	\hline			
+	  	 	\textbf{$p_4$} & 0.3677 & 0.2404 & \textbf{0.1888} &\\
+	  	 	\hline		
     		\end{tabular}
     	\end{adjustbox}
 	\end{center}
 	
 	\underline{Cluster 1:} \{3, 6\} \\
 	\underline{Cluster 2:} \{2, 5\} \\
-	
+	\underline{Cluster 3:} \{\{3, 6\}, \{4\}\}
 	
 	\begin{itemize}
-		\item d(\{1\},\{2,5\}) = avg(d(\{1\},\{2\}), d(\{1\},\{5\})) = 0.2919
-		\item d(\{4\},\{2,5\}) = avg(d(\{2\},\{4\}), d(\{2\},\{5\})) = 0.1649
-		\item d(\{3,6\},\{2,5\}) = avg(d(\{3\},\{2\}), d(\{3\},\{5\}), d(\{6\},\{2\}), d(\{6\},\{5\})) = 0.2689
+		\item d(\{1\},\{\{3, 6\}, \{4\}\}) = avg[d(\{1\},\{3, 6\}) + d(\{1\},\{4\})] = 0.2967
+		\item d(\{2, 5\},\{\{3, 6\}, \{4\}\}) = avg[d(\{2, 5\},\{3, 6\}) + d(\{2, 5\},\{4\})] = 0.2295
 	\end{itemize}
+	
+
+	\textbf{Iteration 4:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2, p_5$} & \textbf{$p_3, p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2, p_5$} & 0.2919 &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3, p_4, p_6$} & 0.2256 & \textbf{0.2185} &\\
+	  	 	\hline	
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\} \\
+	\underline{Cluster 3:} \{\{3, 6\}, \{4\}\} \\
+	\underline{Cluster 4:} \{\{3, 4, 6\}, \{2, 5\}\}
+
+	\textbf{Iteration 5:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c|}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2, p_3, p_4, p_5, p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2, p_3, p_4, p_5, p_6$} & \textbf{0.2919} &\\
+	  	 	\hline
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\} \\
+	\underline{Cluster 3:} \{\{3, 6\},\{4\}\} \\
+	\underline{Cluster 4:} \{\{3, 4, 6\}, \{2, 5\}\} \\
+	\underline{Cluster 5:} \{1,\{\{3, 4, 6\}, \{2, 5\}\}\}
+
 %----------------------------------------------------------------------------------------
 	%	PROBLEM 3
 	%----------------------------------------------------------------------------------------

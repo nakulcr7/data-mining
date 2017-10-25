@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 OCT 2017 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 OCT 2017 22:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,22 +373,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--434
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 507--509
+Underfull \hbox (badness 10000) in paragraph at lines 504--506
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 549--551
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 606--607
 
  []
 
@@ -396,13 +386,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 563--564
 Here is how much of TeX's memory you used:
  3725 strings out of 493014
  55465 string characters out of 6133351
- 140405 words of memory out of 5000000
+ 139405 words of memory out of 5000000
  7180 multiletter control sequences out of 15000+600000
  11958 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,8n,35p,317b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.pdf (10 pages, 151353 bytes).
+Output written on /Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.pdf (10 pages, 151624 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
