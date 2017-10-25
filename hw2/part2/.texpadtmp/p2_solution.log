@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 OCT 2017 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 OCT 2017 20:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -187,34 +187,46 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count106
 \@vwid@loff=\dimen131
 \@vwid@roff=\dimen132
-)) (/Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.aux)
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks28
+\SOUL@lasttoken=\toks29
+\SOUL@cmds=\toks30
+\SOUL@buffer=\toks31
+\SOUL@token=\toks32
+\SOUL@spaceskip=\skip53
+\SOUL@ttwidth=\dimen133
+\SOUL@uldp=\dimen134
+\SOUL@ulht=\dimen135
+) (/Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.aux)
 \openout1 = `p2_solution.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
- (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
-\scratchdimen=\dimen133
+\scratchdimen=\dimen136
 \scratchbox=\box30
 \nofMPsegments=\count108
 \nofMParguments=\count109
-\everyMPshowfont=\toks28
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count110
-\MPscratchDim=\dimen134
+\MPscratchDim=\dimen137
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks29
+\everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
@@ -250,100 +262,150 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Overfull \hbox (27.37822pt too wide) in paragraph at lines 65--66
+Overfull \hbox (27.37817pt too wide) in paragraph at lines 66--67
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
 
 <kmeans_graphs/iteration_1.png, id=10, 433.62pt x 289.08pt>
 File: kmeans_graphs/iteration_1.png Graphic file (type png)
  <use kmeans_graphs/iteration_1.png>
-Package pdftex.def Info: kmeans_graphs/iteration_1.png used on input line 74.
+Package pdftex.def Info: kmeans_graphs/iteration_1.png used on input line 75.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 [2 <./kmeans_graphs/iteration_1.png>] <kmeans_graphs/iteration_2.png, id=22, 433.62pt x 289.08pt>
 File: kmeans_graphs/iteration_2.png Graphic file (type png)
  <use kmeans_graphs/iteration_2.png>
-Package pdftex.def Info: kmeans_graphs/iteration_2.png used on input line 79.
+Package pdftex.def Info: kmeans_graphs/iteration_2.png used on input line 80.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 <kmeans_graphs/iteration_3.png, id=23, 433.62pt x 289.08pt>
 File: kmeans_graphs/iteration_3.png Graphic file (type png)
  <use kmeans_graphs/iteration_3.png>
-Package pdftex.def Info: kmeans_graphs/iteration_3.png used on input line 84.
+Package pdftex.def Info: kmeans_graphs/iteration_3.png used on input line 85.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 <kmeans_graphs/iteration_4.png, id=24, 433.62pt x 289.08pt>
 File: kmeans_graphs/iteration_4.png Graphic file (type png)
  <use kmeans_graphs/iteration_4.png>
-Package pdftex.def Info: kmeans_graphs/iteration_4.png used on input line 89.
+Package pdftex.def Info: kmeans_graphs/iteration_4.png used on input line 90.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
  [3 <./kmeans_graphs/iteration_2.png> <./kmeans_graphs/iteration_3.png>] [4 <./kmeans_graphs/iteration_4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-[6] (/Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.aux) ) 
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+[7]
+Overfull \hbox (3.96645pt too wide) in paragraph at lines 384--385
+[]\OT1/cmr/m/n/10.95 d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3,4,6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = max(d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 )) = d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) 
+ []
+
+
+Overfull \hbox (3.60143pt too wide) in paragraph at lines 385--386
+[]\OT1/cmr/m/n/10.95 d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2,5\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3,4,6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = max(d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ),
+ []
+
+
+Overfull \hbox (3.96645pt too wide) in paragraph at lines 426--427
+[]\OT1/cmr/m/n/10.95 d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3,4,6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = max(d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 )) = d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) 
+ []
+
+
+Overfull \hbox (3.60143pt too wide) in paragraph at lines 427--428
+[]\OT1/cmr/m/n/10.95 d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2,5\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3,4,6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = max(d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 549--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--564
+
+ []
+
+[10] (/Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.aux) ) 
 Here is how much of TeX's memory you used:
- 3553 strings out of 493014
- 53315 string characters out of 6133351
- 127922 words of memory out of 5000000
- 7013 multiletter control sequences out of 15000+600000
- 11645 words of font info for 44 fonts, out of 8000000 for 9000
+ 3725 strings out of 493014
+ 55465 string characters out of 6133351
+ 140405 words of memory out of 5000000
+ 7180 multiletter control sequences out of 15000+600000
+ 11958 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,35p,299b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,8n,35p,317b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.pdf (6 pages, 135153 bytes).
+Output written on /Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.pdf (10 pages, 151353 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

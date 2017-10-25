@@ -5,6 +5,7 @@
 	\usepackage{amsmath,amsfonts,amsthm} % Math packages
 	\usepackage{mathtools}
 	\usepackage{adjustbox}
+	\usepackage{soul}
 	%----------------------------------------------------------------------------------------
 	%	TITLE SECTION
 	%----------------------------------------------------------------------------------------
@@ -41,7 +42,7 @@
 		\underline{The $E$-step:} \\
     		\begin{center}
     			\begin{adjustbox}{max width=\textwidth}
-				\begin{tabular}{ | c | l | l | l | l |}
+				\begin{tabular}{ | c | c | c | c | c |}
 	  	 		\hline
     				\textbf{Data Point} & \textbf{D($C_1$)} & \textbf{D($C_2$)} & \textbf{D($C_3$)} & \textbf{Optimal centroid} \\ 
     			\hline
@@ -63,7 +64,7 @@
     			\hline 					
     			\end{tabular}
     			\end{adjustbox}
-		\end{center}
+			\end{center}
 		
 		\underline{The $M$-step:} \\
 		$C_1$ = mean[(2, 10)] = (2.0, 10.0) \\
@@ -97,10 +98,464 @@
 	\section*{2. Agglomerative Hierarchical}
 
 	\textbf{Solution:}\\
+	
+	\textbf{1. Using MIN as an inter-cluster measure} \\
+	
+	\textbf{Iteration 1:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & 0.2159 & 0.1523 &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & 0.1581 &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & 0.3418 & 0.1334 & 0.2846 & 0.2842 &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & 0.2354 & 0.2530 & \textbf{0.1020} & 0.2195 & 0.3860 & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\}
+	
+	\begin{itemize}
+		\item d(\{1\},\{3,6\}) = min(d(\{1\},\{3\}), d(\{1\},\{6\})) = d(\{1\},\{3\})
+		\item d(\{2\},\{3,6\}) = min(d(\{2\},\{3\}), d(\{2\},\{6\})) = d(\{2\},\{3\})
+		\item d(\{4\},\{3,6\}) = min(d(\{4\},\{3\}), d(\{4\},\{6\})) = d(\{4\},\{3\})
+		\item d(\{5\},\{3,6\}) = min(d(\{5\},\{3\}), d(\{5\},\{6\})) = d(\{5\},\{3\})
+	\end{itemize}
+	
+	
+	\textbf{Iteration 2:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & 0.2159 & 0.1523 &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & 0.1581 &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & 0.3418 & \textbf{0.1334} & 0.2846 & 0.2842 &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & \st{0.2354} & \st{0.2530} & \st{0.1020} & \st{0.2195} & \st{0.3860} & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\}
+	
+	\begin{itemize}
+		\item d(\{1\},\{2,5\}) = min(d(\{1\},\{2\}), d(\{1\},\{5\})) = d(\{1\},\{2\})
+		\item d(\{4\},\{2,5\}) = min(d(\{4\},\{2\}), d(\{4\},\{5\})) = d(\{4\},\{2\})
+		\item d(\{3,6\},\{2,5\}) = min(d(\{3\},\{2\}), d(\{3\},\{5\}), d(\{6\},\{2\}), d(\{6\},\{5\})) = d(\{3\},\{2\})
+	\end{itemize}
+	
+	\textbf{Iteration 3:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & 0.2159 & \textbf{0.1523} &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & 0.1581 &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & \st{0.3418} & \st{0.1334} & \st{0.2846} & \st{0.2842} &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & \st{0.2354} & \st{0.2530} & \st{0.1020} & \st{0.2195} & \st{0.3860} & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\} \\
+	\underline{Cluster 3:} \{\{2, 5\}, \{3, 6\}\} 
+	
+	\begin{itemize}
+		\item d\{\{2, 5, 3, 6\}, \{1\}\} = min(d\{2, 1\}, d\{5, 1\}, d\{3, 1\}, d\{6, 1\}) = d\{3, 1\}
+		\item d\{\{2, 5, 3, 6\}, \{4\}\} = min(d\{2, 4\}, d\{5, 4\}, d\{3, 4\}, d\{6, 4\}) = d\{3, 4\}
+	\end{itemize}
+	
+	\textbf{Iteration 4:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & \st{0.2421} &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & 0.2159 & \st{0.1523} &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & \st{0.1965} & \textbf{0.1581} &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & \st{0.3418} & \st{0.1334} & \st{0.2846} & \st{0.2842} &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & \st{0.2354} & \st{0.2530} & \st{0.1020} & \st{0.2195} & \st{0.3860} & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\} \\
+	\underline{Cluster 3:} \{\{2, 5\}, \{3, 6\}\} \\
+	\underline{Cluster 4:} \{\{2, 5, 3, 6\}, \{4\}\}
 	\newpage
 	
 	
-	%----------------------------------------------------------------------------------------
+	% ------
+	
+	\textbf{2. Using MAX as an inter-cluster measure} \\
+	
+	\textbf{Iteration 1:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & 0.2159 & 0.1523 &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & 0.1581 &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & 0.3418 & 0.1334 & 0.2846 & 0.2842 &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & 0.2354 & 0.2530 & \textbf{0.1020} & 0.2195 & 0.3860 & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\}
+	
+	\begin{itemize}
+		\item d(\{1\},\{3,6\}) = max(d(\{1\},\{3\}), d(\{1\},\{6\})) = d(\{1\},\{6\})
+		\item d(\{2\},\{3,6\}) = max(d(\{2\},\{3\}), d(\{2\},\{6\})) = d(\{2\},\{6\})
+		\item d(\{4\},\{3,6\}) = max(d(\{4\},\{3\}), d(\{4\},\{6\})) = d(\{4\},\{6\})
+		\item d(\{5\},\{3,6\}) = max(d(\{5\},\{3\}), d(\{5\},\{6\})) = d(\{5\},\{6\})
+	\end{itemize}
+	
+	\textbf{Iteration 2:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & \st{0.2159} & \st{0.1523} &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & \st{0.1581} &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & 0.3418 & \textbf{0.1334} & \st{0.2846} & 0.2842 &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & 0.2354 & 0.2530 & \st{0.1020} & 0.2195 & 0.3860 & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\}
+	
+	\begin{itemize}
+		\item d(\{1\},\{2,5\}) = max(d(\{1\},\{2\}), d(\{1\},\{5\})) = d(\{1\},\{5\})
+		\item d(\{4\},\{2,5\}) = max(d(\{4\},\{2\}), d(\{4\},\{5\})) = d(\{4\},\{5\})
+		\item d(\{3, 6\},\{2,5\}) = max(d(\{3\},\{2\}), d(\{3\},\{5\}), d(\{6\},\{2\}), d(\{6\},\{5\})) = d(\{6\},\{5\})
+	\end{itemize}
+	
+	
+	\textbf{Iteration 3:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & \st{0.2421} &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & \st{0.2159} & \st{0.1523} &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & \st{0.1965} & \st{0.1581} &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & 0.3418 & \st{0.1334} & \st{0.2846} & 0.2842 &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & 0.2354 & \st{0.2530} & \st{0.1020} & \textbf{0.2195} & 0.3860 & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\} \\
+	\underline{Cluster 3:} \{\{3, 6\}, \{4\}\}
+	
+	\begin{itemize}
+		\item d(\{1\},\{3,4,6\}) = max(d(\{1\},\{3\}), d(\{1\},\{4\}), d(\{1\},\{6\})) = d(\{1\},\{4\})
+		\item d(\{2,5\},\{3,4,6\}) = max(d(\{2\},\{3\}), d(\{2\},\{4\}), d(\{2\},\{6\}), d(\{5\},\{3\}), d(\{5\},\{4\}), d(\{5\},\{6\})) = d(\{5\},\{6\})
+	\end{itemize}
+	
+	
+	\textbf{Iteration 4:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & \st{0.2421} &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & \st{0.2159} & \st{0.1523} &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & \st{0.1965} & \st{0.1581} &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & \textbf{0.3418} & \st{0.1334} & \st{0.2846} & \st{0.2842} &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & \st{0.2354} & \st{0.2530} & \st{0.1020} & \st{0.2195} & 0.3860 & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\} \\
+	\underline{Cluster 3:} \{\{3, 6\}, \{4\}\} \\
+	\underline{Cluster 4:} \{\{2, 5\}, \{1\}\}
+	
+	\begin{itemize}
+		\item d(\{1\},\{3,4,6\}) = max(d(\{1\},\{3\}), d(\{1\},\{4\}), d(\{1\},\{6\})) = d(\{1\},\{4\})
+		\item d(\{2,5\},\{3,4,6\}) = max(d(\{2\},\{3\}), d(\{2\},\{4\}), d(\{2\},\{6\}), d(\{5\},\{3\}), d(\{5\},\{4\}), d(\{5\},\{6\})) = d(\{5\},\{6\})
+	\end{itemize}
+
+	
+	% --------
+	
+	\textbf{1. Using AVG as an inter-cluster measure} \\
+	
+	\textbf{Iteration 1:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & 0.2159 & 0.1523 &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & 0.1581 &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & 0.3418 & 0.1334 & 0.2846 & 0.2842 &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & 0.2354 & 0.2530 & \textbf{0.1020} & 0.2195 & 0.3860 & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	
+	\begin{itemize}
+		\item d(\{1\},\{3,6\}) = (d(\{1\},\{3\}) + d(\{1\},\{6\})) / (1 x 2) = 0.2256
+		\item d(\{4\},\{3,6\}) = (d(\{4\},\{3\}) + d(\{4\},\{6\})) / (1 x 2) = 0.1888
+		\item d(\{2\},\{3,6\}) = (d(\{2\},\{3\}) + d(\{2\},\{6\})) / (1 x 2) = 0.2026
+		\item d(\{5\},\{3,6\}) = (d(\{5\},\{3\}) + d(\{5\},\{6\})) / (1 x 2) = 0.3353
+	\end{itemize}
+	
+	
+	\textbf{Iteration 2:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & 0.2421 &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & \st{0.2159} & \st{0.1523} &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & 0.1965 & \st{0.1581} &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & 0.3418 & \textbf{0.1334} & \st{0.2846} & 0.2842 &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & \st{0.2354} & \st{0.2530} & \st{0.1020} & \st{0.2195} & \st{0.3860} & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\} \\
+	
+	
+	\begin{itemize}
+		\item d(\{1\},\{2,5\}) = avg(d(\{1\},\{2\}), d(\{1\},\{5\})) = 0.2919
+		\item d(\{4\},\{2,5\}) = avg(d(\{2\},\{4\}), d(\{2\},\{5\})) = 0.1649
+		\item d(\{3,6\},\{2,5\}) = avg(d(\{3\},\{2\}), d(\{3\},\{5\}), d(\{6\},\{2\}), d(\{6\},\{5\})) = 0.2689
+	\end{itemize}
+	
+	
+	\textbf{Iteration 3:}
+	
+	\begin{center}
+    	\begin{adjustbox}{max width=\textwidth}
+		\begin{tabular}{ | c | c | c | c | c | c | c |}
+	  	 	\hline
+
+	  	 	& \textbf{$p_1$} & \textbf{$p_2$} & \textbf{$p_3$} & \textbf{$p_4$} & \textbf{$p_5$} & \textbf{$p_6$}\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_1$} &  &  &  &  &  &\\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_2$} & \st{0.2421} &  &  &  &  &  \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_3$} & \st{0.2159} & \st{0.1523} &  &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_4$} & 0.3677 & \st{0.1965} & \st{0.1581} &  &  & \\
+	  	 	\hline
+	  	 	
+	  	 	\textbf{$p_5$} & \st{0.3418} & \st{0.1334} & \st{0.2846} & \textbf{0.2842} &  & \\
+	  	 	\hline	
+	  	 	
+	  	 	\textbf{$p_6$} & \st{0.2354} & \st{0.2530} & \st{0.1020} & \st{0.2195} & \st{0.3860} & \\
+	  	 	\hline			
+    		\end{tabular}
+    	\end{adjustbox}
+	\end{center}
+	
+	\underline{Cluster 1:} \{3, 6\} \\
+	\underline{Cluster 2:} \{2, 5\} \\
+	
+	
+	\begin{itemize}
+		\item d(\{1\},\{2,5\}) = avg(d(\{1\},\{2\}), d(\{1\},\{5\})) = 0.2919
+		\item d(\{4\},\{2,5\}) = avg(d(\{2\},\{4\}), d(\{2\},\{5\})) = 0.1649
+		\item d(\{3,6\},\{2,5\}) = avg(d(\{3\},\{2\}), d(\{3\},\{5\}), d(\{6\},\{2\}), d(\{6\},\{5\})) = 0.2689
+	\end{itemize}
+%----------------------------------------------------------------------------------------
 	%	PROBLEM 3
 	%----------------------------------------------------------------------------------------
 	\section*{3. DBSCAN}
