@@ -33,6 +33,49 @@
 	
 \section*{3 Evaluation}
 
+\subsection*{3.1 Cophenetic Correlation Coefficient}
+\textbf{Solution:}\\
+Table 8.7 from TSK: \\
+\begin{center}
+	\includegraphics[scale=0.2]{table_8_7.jpeg}
+\end{center}
+
+\underline{a.}
+The cophenetic distance between two clusters is the smallest distance between the two clusters when they were initially merged together.
+
+\begin{itemize}
+	\item Clusters 3 and 6 were the first to be merged in and when they were, the distance between them was 0.11
+	\item Clusters 2 and 5 were merged together next and the distance between them when they were merged was 0.139
+	\item and similarly for P3/P5 and P2/P6
+\end{itemize}
+
+\underline{b.}
+
+The cophenetic correlation can be computed as follows
+
+\begin{center}
+	\includegraphics[scale=0.2]{cophenetic_equation.jpeg}
+\end{center}
+
+\begin{itemize}
+	\item $x(i, j)$ = $| X_i - X_j |$, the ordinary Euclidean distance between the $i^{th}$ and $j^{th}$ observations
+	\item $t(i, j)$ = the cophenetic distance between the points $T_i$ and $T_j$
+\end{itemize}
+
+\underline{Computation:}
+\begin{center}
+	\includegraphics[scale=0.2]{cophenetic_excel}
+\end{center}
+
+Using the above equation and computations from the table,
+
+\begin{align*}
+	c &= \frac{Sum(Column E * Column F)}{\sqrt{Sum((Column E)^2) \cdot Sum((Column F)^2)}} \\
+	&= \frac{0.020786667}{\sqrt{0.099173333 \times 0.021459333}} \\
+	&= 0.450587616
+\end{align*}
+
+
 \subsection*{3.2 Purity}
 \textbf{Solution:}\\
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 OCT 2017 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 OCT 2017 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -272,50 +272,81 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-<table_8_9.jpeg, id=10, 1730.465pt x 560.0925pt>
-File: table_8_9.jpeg Graphic file (type jpg)
- <use table_8_9.jpeg>
-Package pdftex.def Info: table_8_9.jpeg used on input line 41.
-(pdftex.def)             Requested size: 346.08687pt x 112.01651pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
+<table_8_7.jpeg, id=10, 1234.6125pt x 507.8975pt>
+File: table_8_7.jpeg Graphic file (type jpg)
+ <use table_8_7.jpeg>
+Package pdftex.def Info: table_8_7.jpeg used on input line 40.
+(pdftex.def)             Requested size: 246.91812pt x 101.5777pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+ <cophenetic_equation.jpeg, id=11, 1300.86pt x 281.05pt>
+File: cophenetic_equation.jpeg Graphic file (type jpg)
+ <use cophenetic_equation.jpeg>
+Package pdftex.def Info: cophenetic_equation.jpeg used on input line 57.
+(pdftex.def)             Requested size: 260.16739pt x 56.209pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+ <cophenetic_excel.jpeg, id=12, 2222.3025pt x 796.9775pt>
+File: cophenetic_excel.jpeg Graphic file (type jpg)
+ <use cophenetic_excel.jpeg>
+Package pdftex.def Info: cophenetic_excel.jpeg used on input line 67.
+(pdftex.def)             Requested size: 444.45264pt x 159.39267pt.
 
-Overfull \hbox (1.4031pt too wide) in paragraph at lines 56--58
+Overfull \hbox (84.45264pt too wide) in paragraph at lines 67--68
+ [] 
+ []
+
+[2 <./table_8_7.jpeg> <./cophenetic_equation.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+<table_8_9.jpeg, id=21, 1730.465pt x 560.0925pt>
+File: table_8_9.jpeg Graphic file (type jpg)
+ <use table_8_9.jpeg>
+Package pdftex.def Info: table_8_9.jpeg used on input line 84.
+(pdftex.def)             Requested size: 346.08687pt x 112.01651pt.
+ [3 <./cophenetic_excel.jpeg> <./table_8_9.jpeg>]
+Overfull \hbox (1.4031pt too wide) in paragraph at lines 99--101
 []\OT1/cmr/m/n/10.95 Overall pu-rity of the clus-ter-ing = $[][] [] \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 p[] \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-[2 <./table_8_9.jpeg>] (/Users/nakul/Workspace/northeastern/cs6220/hw2/part3/.texpadtmp/p3_solution.aux) ) 
+[4] (/Users/nakul/Workspace/northeastern/cs6220/hw2/part3/.texpadtmp/p3_solution.aux) ) 
 Here is how much of TeX's memory you used:
- 3707 strings out of 493014
- 54908 string characters out of 6133351
- 124405 words of memory out of 5000000
- 7166 multiletter control sequences out of 15000+600000
+ 3725 strings out of 493014
+ 55269 string characters out of 6133351
+ 123405 words of memory out of 5000000
+ 7178 multiletter control sequences out of 15000+600000
  12265 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,35p,317b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,9n,35p,317b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/nakul/Workspace/northeastern/cs6220/hw2/part3/.texpadtmp/p3_solution.pdf (2 pages, 345924 bytes).
+Output written on /Users/nakul/Workspace/northeastern/cs6220/hw2/part3/.texpadtmp/p3_solution.pdf (4 pages, 1220882 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 OCT 2017 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 OCT 2017 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -198,35 +198,42 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ttwidth=\dimen133
 \SOUL@uldp=\dimen134
 \SOUL@ulht=\dimen135
-) (/Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.aux)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip54
+\enit@outerparindent=\dimen136
+\enit@toks=\toks33
+\enit@inbox=\box30
+\enitdp@description=\count107
+)
+(/Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.aux)
 \openout1 = `p2_solution.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+ (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen136
-\scratchbox=\box30
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen137
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count108
+\scratchdimen=\dimen137
+\scratchbox=\box31
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen138
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks35
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
@@ -262,140 +269,310 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Overfull \hbox (27.37817pt too wide) in paragraph at lines 66--67
+Overfull \hbox (27.37817pt too wide) in paragraph at lines 68--69
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
+Underfull \hbox (badness 10000) in paragraph at lines 71--75
 
  []
 
 <kmeans_graphs/iteration_1.png, id=10, 433.62pt x 289.08pt>
 File: kmeans_graphs/iteration_1.png Graphic file (type png)
  <use kmeans_graphs/iteration_1.png>
-Package pdftex.def Info: kmeans_graphs/iteration_1.png used on input line 75.
+Package pdftex.def Info: kmeans_graphs/iteration_1.png used on input line 77.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 [2 <./kmeans_graphs/iteration_1.png>] <kmeans_graphs/iteration_2.png, id=22, 433.62pt x 289.08pt>
 File: kmeans_graphs/iteration_2.png Graphic file (type png)
  <use kmeans_graphs/iteration_2.png>
-Package pdftex.def Info: kmeans_graphs/iteration_2.png used on input line 80.
+Package pdftex.def Info: kmeans_graphs/iteration_2.png used on input line 82.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 <kmeans_graphs/iteration_3.png, id=23, 433.62pt x 289.08pt>
 File: kmeans_graphs/iteration_3.png Graphic file (type png)
  <use kmeans_graphs/iteration_3.png>
-Package pdftex.def Info: kmeans_graphs/iteration_3.png used on input line 85.
+Package pdftex.def Info: kmeans_graphs/iteration_3.png used on input line 87.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 <kmeans_graphs/iteration_4.png, id=24, 433.62pt x 289.08pt>
 File: kmeans_graphs/iteration_4.png Graphic file (type png)
  <use kmeans_graphs/iteration_4.png>
-Package pdftex.def Info: kmeans_graphs/iteration_4.png used on input line 90.
+Package pdftex.def Info: kmeans_graphs/iteration_4.png used on input line 92.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
  [3 <./kmeans_graphs/iteration_2.png> <./kmeans_graphs/iteration_3.png>] [4 <./kmeans_graphs/iteration_4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
 [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
 [7]
-Overfull \hbox (3.96645pt too wide) in paragraph at lines 384--385
+Overfull \hbox (3.96645pt too wide) in paragraph at lines 397--398
 []\OT1/cmr/m/n/10.95 d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3,4,6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = max(d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 )) = d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) 
  []
 
 
-Overfull \hbox (3.60143pt too wide) in paragraph at lines 385--386
+Overfull \hbox (3.60143pt too wide) in paragraph at lines 398--399
 []\OT1/cmr/m/n/10.95 d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2,5\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3,4,6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = max(d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ),
- []
-
-
-Overfull \hbox (3.96645pt too wide) in paragraph at lines 426--427
-[]\OT1/cmr/m/n/10.95 d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3,4,6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = max(d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 )) = d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) 
- []
-
-
-Overfull \hbox (3.60143pt too wide) in paragraph at lines 427--428
-[]\OT1/cmr/m/n/10.95 d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2,5\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3,4,6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ) = max(d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 4\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 6\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ), d(\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ,\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 3\OMS/cmsy/m/n/10.95 g\OT1/cmr/m/n/10.95 ),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
-
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 504--506
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--516
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 606--607
+Underfull \hbox (badness 10000) in paragraph at lines 620--621
 
  []
 
-[10] (/Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.aux) ) 
+[10] [11]
+Overfull \hbox (8.71275pt too wide) in paragraph at lines 647--648
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[60,25,50,68,11], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,19,32,54,63,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (8.71275pt too wide) in paragraph at lines 648--649
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[25,50,68,11], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,19,32,54,60,63,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (36.69612pt too wide) in paragraph at lines 649--650
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[50,68,11,26,67], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,19,25,32,54,60,63,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (50.6878pt too wide) in paragraph at lines 650--651
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[68,11,26,67,39], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,19,25,32,50,54,60,63,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (50.6878pt too wide) in paragraph at lines 651--652
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[11,26,67,39], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,19,25,32,50,54,60,63,68,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (64.67949pt too wide) in paragraph at lines 652--653
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[26,67,39,14], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,11,19,25,32,50,54,60,63,68,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (78.67117pt too wide) in paragraph at lines 653--654
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[67,39,14,34], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,11,19,25,26,32,50,54,60,63,68,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (78.67117pt too wide) in paragraph at lines 654--655
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[39,14,34], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,11,19,25,26,32,50,54,60,63,67,68,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (106.65454pt too wide) in paragraph at lines 655--656
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[14,34,10,71], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,11,19,25,26,32,39,50,54,60,63,67,68,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (115.17122pt too wide) in paragraph at lines 656--657
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[34,10,71,6], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,11,14,19,25,26,32,39,50,54,60,63,67,68,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (143.15459pt too wide) in paragraph at lines 657--658
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[10,71,6,29,46], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,11,14,19,25,26,32,34,39,50,54,60,63,67,68,69,70,72,74\OMS/cmsy/m/n/10.95 g 
+ []
+
+
+Overfull \hbox (137.67958pt too wide) in paragraph at lines 658--659
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[71,6,29,46,22], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,10,11,14,19,25,26,32,34,39,50,54,60,63,67,68,69,70,72 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 659--660
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[6,29,46,22], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,8,10,11,14,19,25,26,32,34,39,50,54,60,63,67,68,69,70,71, 
+ []
+
+[12]
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 660--661
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[29,46,22,42], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,19,25,26,32,34,39,50,54,60,63,67,68,69,70, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 661--662
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[46,22,42,16], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,19,25,26,29,32,34,39,50,54,60,63,67,68,69, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 662--663
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[22,42,16], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,19,25,26,29,32,34,39,46,50,54,60,63,67,68,69, 
+ []
+
+
+Overfull \hbox (98.7462pt too wide) in paragraph at lines 663--664
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[42,16], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,19,22,25,26,29,32,34,39,46,50,54,60,63,67, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 664--665
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[16,17,20], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,19,22,25,26,29,32,34,39,42,46,50,54,60,63,67, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 665--666
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[17,20,48], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,19,22,25,26,29,32,34,39,42,46,50,54,60,63, 
+ []
+
+
+Overfull \hbox (98.7462pt too wide) in paragraph at lines 666--667
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[20,48], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,22,25,26,29,32,34,39,42,46,50,54, 
+ []
+
+
+Overfull \hbox (98.7462pt too wide) in paragraph at lines 667--668
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[48,38], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,32,34,39,42,46,50, 
+ []
+
+
+Overfull \hbox (84.75452pt too wide) in paragraph at lines 668--669
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[38], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,32,34,39,42,46,48, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 669--670
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[30,37,45], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,32,34,38,39,42,46,48, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 670--671
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[37,45,52], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,32,34,38,39,42,46, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 671--672
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[45,52,53], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,32,34,37,38,39,42, 
+ []
+
+[13]
+Overfull \hbox (98.7462pt too wide) in paragraph at lines 672--673
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[52,53], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,32,34,37,38,39, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 673--674
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[53,49,64], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,32,34,37,38,39,42, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 674--675
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[49,64,47], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,32,34,37,38,39,42, 
+ []
+
+
+Overfull \hbox (140.72125pt too wide) in paragraph at lines 675--676
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[64,47,31,76], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,32,34,37,38,39,42, 
+ []
+
+
+Overfull \hbox (126.72957pt too wide) in paragraph at lines 676--677
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[47,31,76], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,32,34,37,38,39,42, 
+ []
+
+
+Overfull \hbox (98.7462pt too wide) in paragraph at lines 677--678
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[31,76], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,32,34,37,38,39, 
+ []
+
+
+Overfull \hbox (112.73788pt too wide) in paragraph at lines 678--679
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[76], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,31,32,34,37,38,39,42, 
+ []
+
+
+Overfull \hbox (112.73788pt too wide) in paragraph at lines 679--680
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[21], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,22,25,26,29,30,31,32,34,37,38,39,42, 
+ []
+
+
+Overfull \hbox (101.78787pt too wide) in paragraph at lines 680--681
+\OT1/cmtt/m/n/10.95 to[]visit\OT1/cmr/m/n/10.95 =[], \OT1/cmtt/m/n/10.95 visited\OT1/cmr/m/n/10.95 =\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 5,6,8,10,11,14,16,17,19,20,21,22,25,26,29,30,31,32,34,37,38,39, 
+ []
+
+[14] [15] [16] [17] <ec_plot.jpeg, id=77, 1272.755pt x 843.15pt>
+File: ec_plot.jpeg Graphic file (type jpg)
+ <use ec_plot.jpeg>
+Package pdftex.def Info: ec_plot.jpeg used on input line 777.
+(pdftex.def)             Requested size: 254.5465pt x 168.627pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
+ []
+
+[18 <./ec_plot.jpeg>] [19] (/Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.aux) ) 
 Here is how much of TeX's memory you used:
- 3725 strings out of 493014
- 55465 string characters out of 6133351
- 139405 words of memory out of 5000000
- 7180 multiletter control sequences out of 15000+600000
- 11958 words of font info for 45 fonts, out of 8000000 for 9000
+ 4023 strings out of 493014
+ 60455 string characters out of 6133351
+ 145566 words of memory out of 5000000
+ 7468 multiletter control sequences out of 15000+600000
+ 12472 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,8n,35p,317b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.pdf (10 pages, 151624 bytes).
+ 40i,8n,35p,317b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on /Users/nakul/Workspace/northeastern/cs6220/hw2/part2/.texpadtmp/p2_solution.pdf (19 pages, 257457 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

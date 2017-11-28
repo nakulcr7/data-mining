@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 OCT 2017 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 OCT 2017 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -54,32 +54,92 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
-[]\OT1/cmr/m/n/12 Wikipedia con-trib-u-tors, "In-stacart" Wikipedia, The Free En-cy-clo-pe-dia,
- []
+./proposal.tex:126: Misplaced alignment tab character &.
+l.126 ...e.com/citations?hl=en\&user=09kJn28AAAAJ&
+                                                  view_op=list_works&sortby=...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./proposal.tex:126: Missing $ inserted.
+<inserted text> 
+                $
+l.126 .../citations?hl=en\&user=09kJn28AAAAJ&view_
+                                                  op=list_works&sortby=title
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 126.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 126.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 126.
+./proposal.tex:126: Misplaced alignment tab character &.
+l.126 ...en\&user=09kJn28AAAAJ&view_op=list_works&
+                                                  sortby=title
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./proposal.tex:127: Missing $ inserted.
+<inserted text> 
+                $
+l.127 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./proposal.tex:127: Missing } inserted.
+<inserted text> 
+                }
+l.127 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
-\OT1/cmr/m/n/12 https://en.wikipedia.org/w/index.php?title=Instacart&oldid=804500268 (ac-cessed
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]\OT1/cmr/m/n/12 https://scholar.google.com/citations?hl=en&user=09kJn28AAAAJview$[]\OML/cmm/m/it/12 p \OT1/cmr/m/n/12 =
  []
+
+./proposal.tex:127: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.127 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 [3] (/Users/nakul/Workspace/northeastern/cs6220/project/.texpadtmp/proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 316 strings out of 493014
- 4115 string characters out of 6133351
+ 332 strings out of 493014
+ 4283 string characters out of 6133351
  57601 words of memory out of 5000000
- 3931 multiletter control sequences out of 15000+600000
- 6489 words of font info for 24 fonts, out of 8000000 for 9000
+ 3941 multiletter control sequences out of 15000+600000
+ 8670 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  22i,6n,19p,594b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /Users/nakul/Workspace/northeastern/cs6220/project/.texpadtmp/proposal.pdf (3 pages, 64962 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on /Users/nakul/Workspace/northeastern/cs6220/project/.texpadtmp/proposal.pdf (3 pages, 82716 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 42 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
