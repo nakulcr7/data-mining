@@ -1,9 +1,0 @@
-b. 27.738 seconds
-
-c. 50 seconds
-
-d. Check screenshot
-
-e. 1: 0.01s; 2: ~0s; 3: 0.01s; 4: 0.01s; 5: ~0s
-   Average time: 0.01s
-   Therefore 0.01 vs 77.738 seconds

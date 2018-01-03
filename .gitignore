@@ -6,4 +6,11 @@ hw1/3_data/AP_train.txt
 hw1/7_data.zip
 
 hw1/hw1_solution/3/AP_train.txt
+
 .DS_Store
+
+# pyenv
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
