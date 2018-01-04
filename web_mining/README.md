@@ -1,6 +1,6 @@
 # Northeastern University Course Relations
 
-Script that queries Northeastern University's dynamic search [site](https://wl11gp.neu.edu/udcprod8/NEUCLSS.p_disp_dyn_sched) for course data, scrapes the page for courses and their associated pre/co-requisites, and output the result in [DOT](https://graphviz.gitlab.io/_pages/doc/info/lang.html) for Graph Visualisation with [GraphViz](https://graphviz.gitlab.io).
+Script that queries Northeastern University's dynamic search [site](https://wl11gp.neu.edu/udcprod8/NEUCLSS.p_disp_dyn_sched) for course data, scrapes the page for courses and their associated pre/co-requisites, and outputs the result in [DOT](https://graphviz.gitlab.io/_pages/doc/info/lang.html) for Graph Visualisation with [GraphViz](https://graphviz.gitlab.io).
 
 
 ## Example Usage
